@@ -23,7 +23,7 @@ services:
     volumes:
       - ./static:/static:ro
     ports:
-      - 8080:8080
+      - 80:80
 
         #  proxy:
         #    image: camptocamp/oauth2_proxy
